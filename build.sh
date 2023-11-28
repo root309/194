@@ -1,2 +1,2 @@
-nasm -f elf64 main.asm -o program.o
+nasm -f elf64 fibonacci.asm -o program.o
 ld program.o -o program
